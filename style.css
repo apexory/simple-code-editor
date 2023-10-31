@@ -1,0 +1,97 @@
+* {
+    color: #fff;
+}
+
+TitleBar {
+    background-color:rgb(20,20,20);
+}
+
+#buttonMinimum, #buttonMaximum, #buttonClose {
+    border: none;
+    color: white;
+}
+
+QScrollBar {
+    background-color: #828282;
+    width: 10px;
+}
+
+QScrollBar::handle {
+    background-color:rgb(255,255,255, 0.1);
+}
+
+QScrollBar::handle::pressed {
+    background-color:rgb(255,255,255, 0.1);
+}
+
+QTabWidget::pane { 
+    border: 0; 
+}
+
+#buttonMinimum:hover,#buttonMaximum:hover {
+    background-color:rgb(30,30,30);
+}
+
+#buttonClose:hover {
+    color: white;
+    background-color:rgb(30,30,30);
+}
+
+#buttonMinimum:pressed,#buttonMaximum:pressed {
+    background-color:rgb(30,30,30);
+}
+
+#buttonClose:pressed {
+    color: white;
+    background-color:rgb(30,30,30);
+}
+
+* {
+    background-color: rgb(20, 20, 20); 
+    border: none;
+}
+
+QTabBar::tab {
+    background-color: rgb(20, 20, 20); 
+}
+
+QTabBar::close-button {
+    image: url(./images/close.png);
+}
+
+QMenuBar { 
+    background-color: rgb(20, 20, 20); 
+    color: #fff; 
+    padding: 5px 0px; 
+}
+
+QLabel { 
+    background-color: rgb(20, 20, 20); 
+    padding: 10px 12px 10px 12px;
+    color: #fff; 
+}
+
+QMenuBar QLabel::hover { 
+    background-color: rgb(35, 35, 35); 
+}
+
+QDialog {
+    background-color: rgb(20, 20, 20); 
+}
+
+QDialog QLabel {
+    font-size: 15px;
+}
+
+QDialog QPushButton {
+    background-color: rgb(20, 20, 20);
+    border: 1px solid rgb(35, 35, 35);
+    font-size: 12px;
+    padding: 7.5px 7.5px;
+}
+
+QTextEdit { 
+    background:rgb(20,20,20); 
+    color: #fff; 
+    font-size: 15px; 
+}
